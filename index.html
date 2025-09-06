@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hope Is Now</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="brand">
+        <img src="https://static.vecteezy.com/system/resources/previews/021/054/630/original/3d-gold-effect-letter-h-free-png.png" alt="Hope Is Now logo" class="brand__logo" />
+        <span class="brand__name">Hope Is Now</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#donate" class="btn btn--primary small">Donate</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__inner">
+      <p class="eyebrow">TOGETHER, WE CAN DO MORE</p>
+      <h1 class="hero__title">Hope Is Now</h1>
+      <p class="hero__subtitle">
+        Helping the community by providing school supplies, financial assistance, and essential
+        resources to families in need.
+      </p>
+      <div class="hero__actions">
+        <a href="#donate" class="btn btn--primary">Donate now</a>
+        <a href="#projects" class="btn btn--ghost">See our work</a>
+      </div>
+    </div>
+  </section>
+
+  <!--head section-->
+  <section id="about" class="section">
+    <div class="container grid two">
+      <div>
+        <h2>About Hope Is Now</h2>
+        <p>
+          Hope Is Now is dedicated to helping the community by providing school supplies, financial assistance,
+          and essential resources to families in need. We believe every child deserves the tools to succeed in
+          school and every family deserves support during difficult times. Through the generosity of our donors,
+          we extend a hand to the unfortunate, offering relief, encouragement, and opportunities for a brighter
+          future. Our mission is to bring hope, reduce hardship, and build stronger communities together.
+        </p>
+      </div>
+      <figure class="card media">
+        <img src="https://thumbs.dreamstime.com/b/two-boys-girl-volunteers-pack-humanitarian-aid-men-packing-box-african-volonteer-to-people-217770656.jpg" alt="Volunteers working together" />
+      </figure>
+    </div>
+  </section>
+
+  <!-- The Donate button -->
+  <section id="donate" class="section section--pad-lg">
+    <div class="container">
+      <h2>Donate</h2>
+      <p class="muted">Your contribution fuels groceries, programs, and emergency relief. Prefer PayPal, Cash App, or Zelle? Choose your way:</p>
+
+      <div class="grid three gap-lg">
+        
+        <article class="card donate">
+          <h3>PayPal</h3>
+          <p>Donate securely with PayPal. One-time or monthly.</p>
+          <a class="btn btn--primary"
+             href="https://www.paypal.me/CharmenthaGuillaume" target="_blank" rel="noopener">
+            Donate with PayPal
+          </a>
+          <p class="tiny muted">Please include your email in the memo to receive a receipt.</p>
+        </article>
+
+        
+        <article class="card donate">
+          <h3>Cash App</h3>
+          <p>Send to our cashtag. Tap to copy.</p>
+          <div class="copybox">
+            <input id="cashtag" value="https://cash.app/$charmieG" readonly />
+            <button class="btn small" data-copy="#cashtag">Copy</button>
+          </div>
+          <p class="tiny muted">We’ll email a receipt if you add your email in the note.</p>
+        </article>
+
+        <!-- Zelle -->
+        <article class="card donate">
+          <h3>Zelle</h3>
+          <p>Use your banking app to send to our email.</p>
+          <div class="copybox">
+            <input id="zelleEmail" value="charmieguillaume@gmail.com" readonly />
+            <button class="btn small" data-copy="#zelleEmail">Copy</button>
+          </div>
+          <p class="tiny muted">Add your email in the memo for a receipt.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects &amp; Impact</h2>
+
+      <div class="grid three gap-lg">
+        <article class="card project">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.UmPsYTk7z1IRPCpc719DqgHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Food drive" />
+          <div class="card__body">
+            <h3>Monthly Food Drive</h3>
+            <p>Serving households with fresh produce and pantry staples.</p>
+          </div>
+        </article>
+
+        <article class="card project">
+          <img src="https://worldrelief.org/content/uploads/2021/08/IMG_2331-scaled.jpg" alt="Mentorship program" />
+          <div class="card__body">
+            <h3>Youth Mentorship</h3>
+            <p>After-school mentoring and tutoring with local volunteers.</p>
+          </div>
+        </article>
+
+        <article class="card project">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.DJ7Eo4u5fz2hABcDTQ-WmwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Emergency assistance" />
+          <div class="card__body">
+            <h3>Emergency Assistance</h3>
+            <p>Rapid response aid for families facing crisis.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <strong>Hope Is Now</strong>
+        <p class="tiny muted">© 2025 Hope Is Now. All rights reserved.</p>
+        <p class="tiny muted">
+          Thank your for your help, you save a life today.
+        </p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>hello@hopeisnow.org<br/>(914)863-4238<br/>New York, NY</p>
+      </div>
+      <div>
+        <h4>Subscribe</h4>
+        <form class="subscribe" onsubmit="return false;">
+          <input type="email" placeholder="Enter your email" aria-label="Email address">
+          <button class="btn small">Join</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
