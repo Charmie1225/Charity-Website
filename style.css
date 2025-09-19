@@ -1,6 +1,6 @@
 :root{
-    --bg:#0b1220;            /* deep navy */
-    --panel:#111827;         /* card bg */
+    --bg:#0b1220;            
+    --panel:#111827;         
     --muted:#9aa3b2;
     --text:#e6e9ef;
     --ring:rgba(255,255,255,.08);
@@ -108,7 +108,7 @@
   .grid.three{grid-template-columns:repeat(3,1fr)}
   .gap-lg{gap:24px}
   
-  /* Donate inputs */
+  /* Donate section */
   .copybox{
     margin-top:12px; display:flex; gap:10px; align-items:center;
   }
@@ -132,4 +132,5 @@
     .grid.three{grid-template-columns:1fr}
     .hero{padding:96px 0 110px}
     .footer__grid{grid-template-columns:1fr}
+
   }
